@@ -1,0 +1,43 @@
+
+#counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  div {
+    margin: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #cecef8;
+    border-radius: 20px;
+
+    p {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 30px;
+      background-color: white;
+      border-radius: 50%;
+    }
+
+    button {
+      padding: 5px 10px;
+      font-size: 15px;
+      outline: none;
+      border: none;
+      background-color: rgb(71, 0, 137);
+      color: white;
+      border-radius: 25px;
+    }
+
+    button:hover {
+      cursor: pointer;
+      background-color: rgb(71, 0, 137, 0.8);
+    }
+  }
+}
